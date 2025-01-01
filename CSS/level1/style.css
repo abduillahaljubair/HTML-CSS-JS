@@ -1,0 +1,46 @@
+h1{/* colorpicker color set kore dibe */
+ text-align: right;
+border: solid;/*width 100%*/
+width: 50%;
+    
+}
+button{
+    background-color: blue;
+    color: white;
+    color: #009000;/*rgb*/
+}
+p{
+    text-align: start;
+    font-weight: bold;
+    line-height: 2.5; /* liner gap */
+}
+h1
+{
+    /* a  b  c  */
+   letter-spacing: 50px;
+   /* h1 er size boro ba choto */
+   font-size: 80px;
+   /*  font  family style*/
+   /* er css fonts */
+   font-style: italic;
+   
+    text-decoration: wavy underline;/*overline=name er upore line,underline=name er niche */
+
+}
+h2{
+    font-weight: 1000000;/*400 default*/
+    /* font chorme e available na thakle jekono ekta kaj korbe */
+   font-style: avant garde,didot,sans-serif;
+    text-decoration:double red underline;
+}
+h3{
+   
+    font-weight: lighter;
+    
+    
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
