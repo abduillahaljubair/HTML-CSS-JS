@@ -1,0 +1,97 @@
+/*
+ *{  universal selector
+}
+ */
+*
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+h1,h3{
+    color: blue;
+}
+/* id selector */
+#login{
+    background-color: antiquewhite;
+}
+#signup{
+    background-color: brown;
+    color: aliceblue;
+}
+/* class selector --amra all upvote ke same class ee rekhe sob upvote er background color change korte pari */
+.upvote
+{
+    background-color: green;
+}
+/* #myld
+{
+    color: brown;
+} */
+ /* upore ta nicher moto lekha jai */
+div[id="myld"] p
+{
+   color:yellow;
+}
+/* desendent selector */
+p a{
+    color: brown;
+}
+/* ===== */
+/* desendent selector as class  */
+.follow a
+{
+    color:brown;
+}
+nav ul li a
+{
+    color: pink;
+}
+/* adjacent sibling combination */
+/* ei khane paragraph er por h3 er color change hobe */
+p + h3
+{
+    color: chartreuse;
+}
+.upvote +button
+{
+   background-color: cornflowerblue;
+}
+/* child combinator */
+/* div er moddhe input box tar color korte parbo */
+div>input
+{
+   background-color: crimson;
+}
+/* attribute selector */
+/* input box er vitore text lekhke eirokom color hobe */
+input[type="text"]
+{
+  color: dimgray;
+}
+/* input box er vitore password lekhke eirokom color hobe */
+
+input[type="password"]
+{
+    color:aqua ;
+}
+/* input box er vitorer backcolor eirokom color hobe */
+
+input[type]
+{
+    background-color: white;
+}
+/* 
+practice question
+1) konta age kaj korbe
+ id selector >class selector>element selector 
+ h1{
+    color: black;
+ }
+ #greet
+ {
+    color: white;
+ }
+ .holo
+ {
+    color: blue;
+ } */
