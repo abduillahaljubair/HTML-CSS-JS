@@ -1,0 +1,96 @@
+#outer
+{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+.inner
+{
+    height: 50px;
+    width: 50px;
+    border: 2px black solid;
+    margin: 10px ;
+    border-radius: 50%;
+    
+}
+#red 
+{
+  background-color: red;
+}
+#yellow
+{
+  background-color:yellow;
+}
+#green
+{
+  background-color: green;
+}
+h2 
+{
+  display: inline;
+  background-color: aquamarine;
+}
+span
+{
+  display: block;
+  background-color: azure;
+}
+
+.inb
+{
+  height: 200px;
+  width: 200px;
+   padding:50px;
+   background-color: aqua;
+   margin: 50px;
+   border: 20px solid rosybrown;
+   padding: 5px;
+   display: inline-block;
+   
+}
+#none
+{
+  display: none;
+   /* 3rd number element show korbe nah */
+}
+
+#parent
+{
+  height: 400px;
+  width: 400px;
+ 
+  border: 20px solid black;
+  background-color: peru;
+
+}
+#child
+{
+  
+  height: 20%;
+  width: 20%;
+  /* margin-left:10%; */
+  background-color: aqua;
+  /* parent e ase width=400 ,tar 10% mani 40 px border theke shorbe */
+  /* margin-top: 20%; */
+  /* jodi amar child ta ke majhe ante chai tahole margin 50% hote hobe */
+  margin-top:33%;
+  margin-left: 33%;
+   font-size:20px;
+   /* padding element er font ba element er upor depend kore so padding holo 20 px mani 1 em  */
+   padding:1em;
+   text-align: center;
+   
+}
+#id
+{
+  font-size: 30px;
+}
+section
+{
+  /* font size root/parent/child er upore dependent  */
+  /* font-size: 2em; */
+
+/* font size root er upore dependent na */
+font-size: 2rem;
+
+}

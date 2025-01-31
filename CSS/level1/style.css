@@ -29,7 +29,7 @@ h2 {
   font-weight: 1000000; /*400 default*/
   /* font chorme e available na thakle jekono ekta kaj korbe */
   font-style: avant garde, didot, sans-serif;
-  text-decoration: double red underline;
+  text-decoration: double rgb(111, 218, 214) underline;
 }
 h3 {
   font-weight: lighter;

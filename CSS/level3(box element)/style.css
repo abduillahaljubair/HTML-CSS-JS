@@ -1,0 +1,57 @@
+div{
+    height: 200px;
+     width: 500px; 
+     background-color: aqua;
+     /* border-width: 5px;
+     border-style: solid;
+     border-color: black; */
+     /* uporer ar nicher ta same */
+     border: 5px solid black;
+     border-left-color: azure;
+     border-left-style: dashed;
+     border-left-width: 10px; ;
+     border-top: 2px dashed blue  ;
+     /* border radius holo box er corner shape */
+      /* border radius 50% holo circle shape */
+     /* border-radius:50%; */
+     border-radius: 30px;
+     border-top-right-radius: 80px;
+     padding-top: 30px;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-bottom: 30px;
+     margin-bottom: 20px;
+     margin-left: 40px;
+
+
+}
+h1
+{
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(127, 255, 163); */
+    border: 2px dashed green;
+    margin: 0px;
+}
+button
+{
+    height: 30px;
+   border-radius: 20px;
+   padding-left: 30px ;
+   padding-right: 30px ;
+   border: black solid;
+   background-color: brown;
+
+   /* Apply to all four sides */
+/* padding: 1em; */
+
+/* top and bottom | left and right */
+/* padding: 5% 10%; */
+
+/* top | left and right | bottom */
+/* padding: 1px 2px 2px; */
+
+/* top | right | bottom | left */
+/* padding: 5px 1em 0 2em; */
+
+}

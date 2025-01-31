@@ -1,0 +1,78 @@
+body
+{
+    text-align: center;
+}
+#container
+{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    /* main axis=left to right  */
+    flex-direction: row-reverse;
+    /* right to left  */
+    /* flex-direction: row-reverse; */
+    /* containe er modhhe top to bottom fix hobe  */
+    /* flex-direction:column;
+    flex-direction:column-reverse; */
+    /* main axis er upore depend kore contailer gula shorbe */
+    /* justify-content: flex-end; */
+    /* flex ta center ee thakbe */
+    justify-content: center;
+    /* justify-content: space-around;
+    justify-content: space-between;
+    /* sob gula box er first and last space same thakbe */
+    /* justify-content: space-evenly; */ 
+    /* iteam gula sob center ee chole ashbe */
+    /* align-items: center; */
+    /* box gula tar width beshir karore kisu box niche ashbe */
+    
+    align-items: center;
+    /* sob conlent center e chole ashbe */
+    /* align-content: center; */
+    /* majhe box 1 er jonno space ashbe   orthat warp box gula lege lege  thakbe  */
+    /* align-content: flex-start; */
+     /* majhe  er jonno space ashbe orthat space thakte parbe */
+    align-items: flex-start;
+
+   
+}
+div{
+    height: 100px;
+    /* container moddhe ei box gula fixed thakbe */
+    width: 100px;
+    display: inline-block;
+    border: 2px rgb(6, 7, 6) solid;
+}
+#box1
+{
+    background-color: rgb(61, 118, 65);
+    height: 200px;
+    /* jei column ee box ta ase sei colum er end chole ashbe  */
+    /* align-self: flex-end; */
+    /* space er  baki jaiga gulo box 1 niye nibe*/
+    flex-grow: 1;
+}
+#box2
+{
+    background-color: rgb(61, 108, 118);
+    /* onno onno box er tulonai box2 digun soto hoye gese baki gula boro kore dise */
+    /* flex-shrink: 2; */
+    /* baki gula ja hok na keno box 2 jate same ee thake */
+    /* flex-shrink: 0; */
+    /* space er  baki jaiga gulo o box 2 niye nibe*/
+    /* flex-grow: 1; */
+    /* jodi baki space er jaiga gulo box1 jevabe bariyese tar theke 2 gun parabe box 2 tahole */
+    flex-grow: 2;
+}
+#box3
+{
+    background-color: rgb(35, 69, 192);
+}
+#box4
+{
+    background-color: rgb(184, 52, 98);
+}
+#box5
+{
+    background-color: rgb(116, 22, 22);
+}

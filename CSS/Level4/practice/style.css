@@ -1,0 +1,60 @@
+.navbar
+{
+    
+    background-color: aqua;
+    display: flex;
+   justify-content: space-around;
+
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+li{
+    list-style-type: none;
+    display:inline;
+}
+.outer
+{
+    height: 400px;
+    margin: 40px;
+    width: 400px;
+    background-color: rgb(156, 156, 17);
+    display: flex;
+    /* main axi er center ee thakbe mani x axis borabor center er jonno  */
+    justify-content: center;
+     /* main axin column er center ee thakbe mani y axis borabor center er jonno  */
+    align-items: center;
+}
+.inner
+{
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    /* align flex sudhu er pariority beshi eita inner container er jonno use hoi */
+    /* align-self: flex-end; */
+}
+/* jodi width=600px  hoi taile background color change hobe  */
+/* responseive er jonno eita use kora hoi  */
+@media (width:600px){
+           .inner
+           {
+            background-color: yellowgreen;
+           }
+}
+/* jodi 600px er beshi hoi taile background color change hobe  */
+/* @media (min-width:600px){
+    .inner
+    {
+     background-color: rgb(211, 21, 21);
+    }
+} */
+ /* width 200 er beshi and 500 er kom hoile eirokom background color dibe */
+@media (min-width:200px) and (max-width:500px){
+    .inner
+    {
+     background-color: rgb(59, 21, 211);
+    }
+}

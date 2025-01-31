@@ -11,12 +11,14 @@ h1,h3{
     color: blue;
 }
 /* id selector */
-#login{
-    background-color: antiquewhite;
-}
 #signup{
     background-color: brown;
     color: aliceblue;
+}
+#login
+{
+ background-color: rgb(69, 69, 141);
+ color: brown;
 }
 /* class selector --amra all upvote ke same class ee rekhe sob upvote er background color change korte pari */
 .upvote
@@ -34,13 +36,13 @@ div[id="myld"] p
 }
 /* desendent selector */
 p a{
-    color: brown;
+    color: rgb(26, 66, 185);
 }
 /* ===== */
 /* desendent selector as class  */
 .follow a
 {
-    color:brown;
+    color:rgb(158, 33, 33);
 }
 nav ul li a
 {
@@ -56,11 +58,12 @@ p + h3
 {
    background-color: cornflowerblue;
 }
+
 /* child combinator */
 /* div er moddhe input box tar color korte parbo */
 div>input
 {
-   background-color: crimson;
+   background-color: rgb(60, 20, 220);
 }
 /* attribute selector */
 /* input box er vitore text lekhke eirokom color hobe */
